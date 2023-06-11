@@ -2,7 +2,7 @@ var configLocation = document.getElementById("configLocation");
 
 var replaceArray = {
    "%container%": document.getElementsByName("contName")[0].value,
-   "%domain%": "tycoonier.tech",
+   "%domain%": "domain.com",
    "%domainPattern%": "`%container%.%domain%`",
    "%middleware%": "https@file,retry@file"
 };
